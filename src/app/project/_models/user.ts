@@ -8,4 +8,5 @@ export interface User{
     userName: string;
     role: Role;
     token: string;
+    
 }
