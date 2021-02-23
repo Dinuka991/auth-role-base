@@ -42,7 +42,7 @@ login(username: string, password: string) {
 logout() {
     // remove user from local storage to log user out
     localStorage.removeItem('user');
-   // this.userSubject.next('');
+    this.userSubject.next('');
     this.route.navigate(['/login']);
 }
   
